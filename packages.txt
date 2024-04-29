@@ -1,0 +1,9 @@
+Important Debian packages:
+qt5ct
+qt5-style-plugin-cleanlooks
+qt5-style-plugin-motif
+qt5-style-plugin-plastique
+qt5-style-plugins
+
+
+Maybe FVWM3 but I build mine from sources

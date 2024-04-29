@@ -1,0 +1,32 @@
+@define-color link_color #00ffff;
+
+
+.scrollbar, .scrollbar.vertical {
+  -GtkScrollbar-has-backward-stepper: 1;
+  -GtkScrollbar-has-forward-stepper: 1;
+  }
+
+/*.scrollbar, .scrollbar.vertical {
+    -GtkRange-stepper-size: 13; */
+/*  -GtkRange-slider-width: 15;
+  -GtkRange-stepper-size: 15; */
+
+/* override for cdetheme's 4px */
+menubar > menuitem {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+menubar > menuitem:hover {
+  /*  padding-top: 2px;*/
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+/* cde-theme specific fixes for dconf-editor */
+.dconf-editor widget.dconf-key {
+  color: black;
+}
+.dconf-editor widget.search {
+  color:black;
+}

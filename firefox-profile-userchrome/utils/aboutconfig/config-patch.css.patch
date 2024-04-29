@@ -1,0 +1,16 @@
+--- config-old.css	2023-09-11 19:24:25.634779189 -0400
++++ config.css	2023-09-11 19:24:10.594704609 -0400
+@@ -47,3 +47,13 @@
+ #configTreeBody::-moz-tree-cell-text(locked) {
+   font-style: italic;
+ }
++
++.deck-selected {
++  max-width: 100vw;
++}
++
++menupopup, panel {
++  --panel-border-radius: 0px !important;
++  --panel-color: var(--toolbar-color) !important;
++  --panel-background: var(--toolbar-bgcolor) !important;
++}
